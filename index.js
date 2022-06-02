@@ -82,7 +82,7 @@ while (!stillPlaying) {
         console.log("\n+++*****++++++******++++++*****+++****+++*****++++++******\n");
     }
 
-    // Uncomment the line below so you can see the secretly generated number and track other variables line...Current gameStage and upperBound range value.
+    // Uncomment the line 87 below so you can see the secretly generated number and track other variables line...Current gameStage and upperBound range value.
     // Comment it again to hide the secret values.
     // console.log(`Current Stage = ${stageCount}, Current UpperBound Range Value  = ${rangeUpper}, and Secret Number = ${myMysteriousNumber}`);
 
