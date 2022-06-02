@@ -102,16 +102,16 @@ while (!stillPlaying) {
         rangeUpper += 1;
         playerPoint += 1;
         console.log(`<<< WELCOME TO STAGE ${stageCount} >>>`);
-        // A message revealing the player's current score!
+        // A message revealing the player's current score! Being Cautious About Singular and Plurals...
         if(playerPoint === 1){
-          console.log(`You currently have ${playerPoint} point.`);
+          console.log(`You currently have ${playerPoint} point.`); //for Singular Score.
         }else{
-          console.log(`You currently have ${playerPoint} points.`);
+          console.log(`You currently have ${playerPoint} points.`); //for Plural Score.
         }
         
         console.log("\n****+++++*****++++++*****++++++\n");
     } else {
-        // This block will control the sequence of actions that summarizes the users efforts, shuts down the game, and directs the user how to start all over.
+        // This block will control the sequence of actions that summarizes the users efforts, shuts down the game should the user fail, and directs the user on how to start all over.
         console.log("\n");
         console.log(`Oops! Wrong Guess ${userName}!!!`);
         console.log(`The correct guess was supposed to be ${myMysteriousNumber}.`);
